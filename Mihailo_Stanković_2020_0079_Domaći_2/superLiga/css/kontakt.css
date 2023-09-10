@@ -1,0 +1,42 @@
+.body{
+    background-color: rgb(217, 227, 229);
+}
+.prijavaTekst{
+    color: rgb(34, 34, 67);
+}
+.info{
+    color: rgb(25, 20, 69);
+}
+
+.forma{
+    border: 1px solid rgb(62, 62, 105);
+    width: 500px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+ .slika{
+ 
+    width: 100%;
+  
+}
+
+
+.crveni{
+    border: 3px solid red;
+}
+
+.glavniMapa{
+    position: relative;
+
+}
+
+.mapa{
+    position: absolute;
+    right: 70px;
+    bottom: 180px;
+   
+
+}
+

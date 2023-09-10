@@ -1,0 +1,97 @@
+.glavniNaslov{
+    padding: 10px;
+   margin-left: 300px;
+
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+   
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.naslov:hover {
+    background-color: rgb(6, 59, 90);
+    color:rgb(252, 252, 253);
+    border-radius: 3px;
+} 
+
+
+
+.opis:hover {
+    background-color: rgb(183, 205, 217);
+    color:rgb(8, 8, 9);
+    border-radius: 3px;
+}
+
+
+.opis{
+    position: absolute;
+    padding: 10px;
+    width: 300px;
+    height: 220px;
+    top: 230px;
+   
+    text-align: left;
+}
+.nazivKluba{
+    position: absolute;
+    padding: 10px;
+    width: 300px;
+    height: 250px;
+    
+   left: 330px;
+    text-align: left;
+}
+.slikaLogo{
+    position: absolute;
+    padding: 10px;
+    width: 150px;
+    top: 70px;
+    height:130px;
+   left: 300px;
+    text-align: left;
+}
+
+.statistika{
+    position: absolute;
+    padding: 10px;
+    width: 150px;
+    top: 200px;
+    height:130px;
+   left: 400px;
+    text-align: left;
+}
+.slikaKluba{
+    position: absolute;
+ 
+   top: 30px;
+  
+   
+    
+}
+.slikaKluba:hover{
+    transform: rotate(30deg);
+}
+
+
+
+
+.div2{
+    position: relative;
+    height: 500px;
+    width: 900px;
+}
+
+@media (width <= 600px) {
+    .gallery {
+        grid-template-columns: 1fr ;
+    }
+}

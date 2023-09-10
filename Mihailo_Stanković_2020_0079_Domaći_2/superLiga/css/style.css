@@ -1,0 +1,96 @@
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+nav {
+    background-color: rgb(13, 95, 117);
+    width: 100%;
+    padding: 10px ;
+}
+
+
+nav .menu {
+    max-width: 1250px;
+     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+     padding: 0 20px;
+} 
+
+.menu ul {
+    display: inline-flex;
+    
+}
+
+ .menu ul li {
+    list-style: none;
+    margin-left: 8px;
+    color: rgb(252, 248, 248);
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(242, 245, 248);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 15px;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(6, 59, 90);
+    color:rgb(252, 252, 253);
+    border-radius: 3px;
+}  
+
+.navigacioni{
+    background-color: rgba(114, 167, 179, 0.915);
+    border-radius: 7px;
+}
+
+.pocetnaNaslov{
+    padding: 20px;
+    margin-left: 180px;
+}
+
+.pocetna{
+    
+        text-align: left;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 30px;
+        padding-bottom: 8px;
+        color: rgb(75, 71, 71);
+    }
+
+.footer{
+    
+    padding:10px;
+    display: flex;
+    gap: 70px;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+.dete1{
+    order:2;
+}
+
+.dete2{
+    order:1;
+}
+
+.dete3{
+    order:3;
+}
+
+.dete4{
+    order:4;
+}
+
+
+   

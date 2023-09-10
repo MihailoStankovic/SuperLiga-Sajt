@@ -1,0 +1,23 @@
+.tabela{
+    border: 2px solid rgb(37, 42, 111);
+}
+
+
+.glavniDiv{
+    position: relative;
+
+}
+
+.pozadinskaSlika{
+    position: absolute;
+    right: 70px;
+    bottom: 180px;
+
+}
+
+.pozadinskaSlika:hover{
+    background-color: rgb(35, 63, 78);
+    
+    border-radius: 50px;
+
+}

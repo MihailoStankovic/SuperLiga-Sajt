@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/kontakt.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <title>Kontakt</title>
+</head>
+<body class="body">
+    <nav>
+        <div class="menu">
+          <div class="logo">
+            <img src="img/Logo_Super_liga_Srbije.png" alt="logo" width="70" height="70" />
+          </div>
+          <div class="navigacioni">
+          <ul>
+            <li><a href="index.html">Super liga</a></li>
+            <li><a href="klubovi.html">Klubovi</a></li>
+            <li><a href="sezona2022.html">Sezona 2022/23</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </div>
+          </ul>
+        </div>
+      </nav>
+
+<h1>Super liga Srbije-Kontkat</h1>
+<h3>ZAJEDNICA FUDBALSKIH KLUBOVA
+    SUPER LIGE I PRVE LIGE SRBIJE</h3>
+
+    <div class="pozadina" >
+      <img class="slika" src="img/pozadina.jpg" alt="pozadina" width="800px" >
+    </div>
+     
+    <div class="osnovneInfo" width="100%">
+    <p class="info" >Adresa: Beograd, Terazije 3/3 <br>
+       Web: <a href="https://www.superliga.rs/"> www.superliga.rs</a> <br>
+        E-mail: <a href="office@superliga.rs">office@superliga.rs</a>  <br>
+        E-mail: <a href="redakcija@superliga.rs">redakcija@superliga.rs</a> <br>
+        Tel: 011/323-4700, 011/324-9200 <br>
+        Fax: 011/3222-054 </p>
+      </div>
+
+    <h2 class="prijavaTekst">REGISTRUJ SE I POSTANI REDOVAN CLAN <br><i> BUDI STALNO U TOKU SA TRANSFERIMA:</i></h2>
+    <br>
+    <form class="forma1">
+    <label for="ime">Ime:</label>
+   <input type="text" name="ime" id="ime" placeholder="Unesite ime"  size="30" maxlength="15">
+   <h5 id="imeCheck" style=" display: none;  color: red ">(*Unesite ime u ispravnom formatu!*)</h5><br><br>
+
+   <label for="prezime">Prezime:</label>
+   <input type="text" class="polje poljePrezime" id="prezime" placeholder="Unesite prezime"  size="30"  maxlength="15"><br>
+   <h5 id="prezimeCheck" style="  display: none; color: red">(*Unesite prezime u ispravnom formatu!*)</h5> <br>
+   <label for="email">Email:</label>
+   <input type="text" class="polje poljeEmail" id="email"   size="30"  ><br><br>
+   <label for="lozinka">Lozinka:</label>
+   <input type="password" class="polje" id="lozinka" minlength="8" size="30"><br><br>
+   
+   <input type="checkbox" id="checkEmail" class="polje" name="email novosti" value="novosti" >
+   Zelim email novosti
+   <h5 id="checkEmailGreska" style="  display: none; color: red">(*Obavezno polje!*)</h5> <br>
+   <br><br>
+   <input type="checkbox" id="checkPolitika" class="polje" name="politika privatnosti" value="privatnost" >
+   Procitao/la sam i razumem pravila o zastiti privatnosti
+   <br><br>
+    <p class="komentar"> <b> Ukoliko imate dodatnih pitanja,mozete ih postaviti ovde: </b></p>
+     <br> <br>
+      <textarea name="komentar"  cols="50" rows="10">
+        Postavi pitanje...
+      </textarea><br>
+      <div class="dugme">
+      <button type="submit" id="dugme1"  >Posalji</button>
+      <button type="reset" id="dugme2" >Obrisi</button>
+    </div>
+  </form>
+    
+
+<br>
+<div class="glavniMapa">
+
+<iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.3394954048053!2d20.4605052!3d44.8146479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7ab206f60a55%3A0x9764adf3468f95a9!2sTerazije%203%2C%20Beograd!5e0!3m2!1sen!2srs!4v1668988852716!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+<footer>
+  <div class="footer" style="background-color:  rgb(6, 59, 90);">
+    
+     
+        <h4>Organizacije:</h4>
+        
+        
+        <div class="logo">
+          <img src="img/Logo_Super_liga_Srbije.png" alt="logo" width="70" height="70"/>   
+      </div>
+      
+        <div class="dete1">
+        <img src="img/FIFA_logo.Novo.png" alt="logo" width="70" height="70"  /> 
+      </div>
+        <div class="dete2"> 
+         <img src="img/Fudbalski_savez_Srbije.png" alt="logo" width="70" height="70" /> 
+        </div>
+        <div class="dete3">
+        <img src="img/european-leagues-logo.png" alt="logo" width="70" height="70" /> 
+      </div>
+        <div class="dete4">
+        <img src="img/UEFA-logo.Novo.png"alt="logo" width="70" height="70" /> 
+      </div>
+
+    
+  </div>
+</footer>
+
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
